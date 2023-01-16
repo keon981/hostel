@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+    <script src="js/jquery-2.1.0.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <title>hostel</title>
+</head>
+<style>
+
+</style>
+
+<body>
+    <!-- home -->
+    <div data-role="page" id="home">
+        <!-- 導覽 -->
+        <div data-role="header" data-theme="b">
+            <h1>
+                home
+            </h1>
+        </div>
+
+
+        <!-- 內容區 -->
+        <div data-role="mian" class="ui-content">
+            <ul class="ui-grid-a">
+                <li class="ui-block-a">
+                    <a href="#" class="ui-btn">功能一</a>
+                </li>
+                <li class="ui-block-b">
+                    <a href="#" class="ui-btn">功能二</a>
+                </li>
+            </ul>
+            <ul class="ui-grid-b">
+                <li class="ui-block-a">
+                    <a href="#" class="ui-btn">功能三</a>
+                </li>
+                <li class="ui-block-b">
+                    <a href="#" class="ui-btn">功能四</a>
+                </li>
+                <li class="ui-block-c">
+                    <a href="#" class="ui-btn">功能五</a>
+                </li>
+            </ul>
+
+
+        </div>
+
+        <!-- 頁尾 -->
+        <div data-role="footer" data-position="fixed" data-theme="b">
+            <h1>
+                <div data-role="navbar" data-gird="b" data-iconpos="top">
+                    <ul>
+                        <li>
+                            <a href="#" data-icon="home" class="ui-btn-active ui-state-persist">home</a>
+                        </li>
+                        <li>
+                            <a href="#product" data-icon="bullets">product</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </h1>
+        </div>
+
+    </div>
+
+    <!-- product -->
+    <div data-role="page" id="product">
+        <!-- 導覽 -->
+        <div data-role="header" data-theme="b">
+            <a data-role="button" data-rel="back" data-icon="back" data-iconpos="notext" data-theme="a"> back</a>
+            <h1>
+                hostel列表
+            </h1>
+        </div>
+
+
+        <!-- 內容區 -->
+        <div data-role="mian" class="ui-content">
+            <ul data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="您好！謝謝惠顧~">
+                <!-- 台中市 -->
+                <li data-role="list-divider"> 台中市</li>
+                <li data-icon="location">
+                    <a href="https://www.millenniumhotels.com/en/taichung/millennium-hotel-taichung/" target="_blank"
+                        style="padding-top: 4px;padding-bottom: 0;">
+                        <img src="https://lh3.googleusercontent.com/proxy/osmlLKzHyMho0BCC0W4wGC6OVxogW0Qm4r6rS59GTsbyMY08FQJf2k_MZo_-uteQys7aFJ3es-1swJScPIM3jtpWwZTSz-jbwUb7r9V0EVfON_TTj_Qi0zEjcdIBkoIlOGD_TMEk9uF3X60I6XzV5-ndWvPgCiQ=w296-h202-n-k-rw-no-v1"
+                            alt="台中日月千禧酒店" height="100%">
+                        <h3>台中日月千禧酒店</h3>
+                        <p>5 星級飯店<br>
+                            高級飯店提供溫馨的客房與套房，設有頂樓酒吧、日間水療中心和戶外泳池。
+                        </p>
+                        <span class="ui-li-count">99</span>
+                    </a>
+                    <a href="https://www.google.com/maps?hl=zh-TW&gl=TW&um=1&ie=UTF-8&fb=1&sa=X&geocode=KVObe8HsPWk0MVGQICboP8sn&daddr=40756%E5%8F%B0%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%B1%AF%E5%8D%80%E5%B8%82%E6%94%BF%E8%B7%AF77%E8%99%9F%E5%8F%B0%E4%B8%AD%E6%97%A5%E6%9C%88%E5%8D%83%E7%A6%A7%E9%85%92%E5%BA%97"
+                        target="_blank"></a>
+                </li>
+                <li data-icon="location">
+                    <a href="http://tc.tango-hotels.com/" target="_blank" style="padding-top: 4px;padding-bottom: 0;">
+                        <img src="https://lh3.googleusercontent.com/p/AF1QipN4jsqfgCR8yZCCBWhazLq6rNnga6KgpEaE-p69=w296-h202-n-k-rw-no-v1"
+                            alt="天閣酒店" height="100%">
+                        <h3>天閣酒店-台中</h3>
+                        <p>4 星級飯店<br>
+                            令人放鬆的旅館提供溫馨客房及免費早餐，並設有低調的餐廳及健身房。
+                        </p>
+                        <span class="ui-li-count">88</span>
+                    </a>
+                    <a href="https://www.google.com/maps?hl=zh-TW&gl=TW&um=1&ie=UTF-8&fb=1&sa=X&geocode=KeXt0R2WPWk0MTHhBf3HzeYJ&daddr=408%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80%E5%A4%A7%E5%A2%A9%E8%B7%AF525%E8%99%9F%E5%A4%A9%E9%96%A3%E9%85%92%E5%BA%97-%E5%8F%B0%E4%B8%AD"
+                        target="_blank"></a>
+                </li>
+                <li data-icon="location">
+                    <a href="https://www.carlton-hotel.com.tw/" target="_blank"
+                        style="padding-top: 4px;padding-bottom: 0;">
+                        <img src="https://lh3.googleusercontent.com/p/AF1QipOt85UBoSkXzQwoVAp1_4gi9y0vLUqGQjPS4leE=w296-h202-n-k-rw-no-v1"
+                            alt="卡爾登飯店" height="100%">
+                        <h3>卡爾登飯店台中館 the Carlton Taichung</h3>
+                        <p>3 星級飯店<br>
+                            低調旅館提供休閒客房，設有餐廳、健身房、免費無線網路，並提供早餐。
+                        </p>
+                        <span class="ui-li-count">77</span>
+                    </a>
+                    <a href="https://www.google.com/maps?hl=zh-TW&gl=TW&um=1&ie=UTF-8&fb=1&sa=X&geocode=KffEkaWbPWk0MdJa5d164i3E&daddr=403%E5%8F%B0%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E5%BF%A0%E6%98%8E%E5%8D%97%E8%B7%AF61%E8%99%9F%E5%8D%A1%E7%88%BE%E7%99%BB%E9%A3%AF%E5%BA%97%E5%8F%B0%E4%B8%AD%E9%A4%A8+the+Carlton+Taichung"
+                        target="_blank"></a>
+                </li>
+                <li data-icon="location">
+                    <a href="https://c5.cityinn.com.tw/tw/" target="_blank" style="padding-top: 4px;padding-bottom: 0;">
+                        <img src="https://lh3.googleusercontent.com/p/AF1QipNrRiPaqDE71oBxFoq9GApn-zjy4kO_R08SmxFL=w296-h202-n-k-rw-no-v1"
+                            alt="新驛旅店台中車站店" height="100%">
+                        <h3>新驛旅店台中車站店</h3>
+                        <p>3 星級飯店<br>
+                            愜意的市區飯店設有明亮的客房、休閒咖啡館、電視廳和電腦多媒體資訊區。
+                        </p>
+                        <span class="ui-li-count">66</span>
+                    </a>
+                    <a href="https://www.google.com/maps?hl=zh-TW&gl=TW&um=1&ie=UTF-8&fb=1&sa=X&geocode=Kb82UykUPWk0MYy3VRwKInrS&daddr=401%E5%8F%B0%E4%B8%AD%E5%B8%82%E6%9D%B1%E5%8D%80%E5%BE%A9%E8%88%88%E8%B7%AF%E5%9B%9B%E6%AE%B5133%E8%99%9F%E6%96%B0%E9%A9%9B%E6%97%85%E5%BA%97%E5%8F%B0%E4%B8%AD%E8%BB%8A%E7%AB%99%E5%BA%97"
+                        target="_blank"></a>
+                </li>
+
+                <!-- 台北市 -->
+                <li data-role="list-divider"> 台北市</li>
+                <li data-icon="location">
+                    <a href="https://taipei.metropolitan.tw/" target="_blank"
+                        style="padding-top: 4px;padding-bottom: 0;">
+                        <img src="https://lh3.googleusercontent.com/p/AF1QipNAxCAtwyvIHtWx-CqxxqIh_RJIRqj_-3z5W21g=w296-h202-n-k-rw-no-v1"
+                            alt="JR東日本大飯店 台北" height="100%">
+                        <h3>JR東日本大飯店 台北</h3>
+                        <p>5 星級飯店<br>
+                            以展出當代藝術的臺北市立美術館、高檔餐廳與 KTV 聞名的繁華行政區。
+                        </p>
+                        <span class="ui-li-count">55</span>
+                    </a>
+                    <a href="https://www.google.com/maps?hl=zh-TW&gl=TW&um=1&ie=UTF-8&fb=1&sa=X&geocode=KcX87dVoq0I0MX-MOhNU7EFv&daddr=104%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80%E5%8D%97%E4%BA%AC%E6%9D%B1%E8%B7%AF%E4%B8%89%E6%AE%B5133%E8%99%9FJR%E6%9D%B1%E6%97%A5%E6%9C%AC%E5%A4%A7%E9%A3%AF%E5%BA%97+%E5%8F%B0%E5%8C%97"
+                        target="_blank"></a>
+                </li>
+                <li data-icon="location">
+                    <a href="https://www.fullon-hotels.com.tw/tp/tw/" target="_blank"
+                        style="padding-top: 4px;padding-bottom: 0;">
+                        <img src="https://lh3.googleusercontent.com/p/AF1QipMDMoTaFmiQ7KmipGcVESnwYUun3LDPkUBhSXoI=w296-h202-n-k-rw-no-v1"
+                            alt="福容大飯店 台北一館" height="100%">
+                        <h3>福容大飯店 台北一館</h3>
+                        <p>5 星級飯店<br>
+                            現代風飯店設有 SPA 中心、頂樓泳池、雞尾酒廊和 2 間精緻餐廳。
+                        </p>
+                        <span class="ui-li-count">88</span>
+                    </a>
+                    <a href="https://www.google.com/maps?hl=zh-TW&gl=TW&um=1&ie=UTF-8&fb=1&sa=X&geocode=KdXIG4vVq0I0MVOyufjrle3d&daddr=106%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E5%BB%BA%E5%9C%8B%E5%8D%97%E8%B7%AF%E4%B8%80%E6%AE%B5266%E8%99%9F%E7%A6%8F%E5%AE%B9%E5%A4%A7%E9%A3%AF%E5%BA%97+%E5%8F%B0%E5%8C%97%E4%B8%80%E9%A4%A8"
+                        target="_blank"></a>
+                </li>
+                <li data-role="collapsible">123
+                    
+                </li>
+            </ul>
+
+
+        </div>
+
+
+        <!-- 頁尾 -->
+        <div data-role="footer" data-position="fixed" data-theme="b">
+            <h1>
+                <div data-role="navbar" data-gird="b" data-iconpos="top">
+                    <ul>
+                        <li>
+                            <a href="#home" data-icon="home">home</a>
+                        </li>
+                        <li>
+                            <a href="#product" data-icon="bullets" class="ui-btn-active ui-state-persist">product</a>
+                        </li>
+                        
+                    </ul>
+
+                </div>
+            </h1>
+        </div>
+
+    </div>
+</body>
+
+</html>
